@@ -1,0 +1,18 @@
+{
+  "name": "DURGA-MD",
+  "description": "MD BOT MADE BY AMEEN SER",
+  "repository": "https://github.com/AmeenRepo/DURGA-MD",
+  "logo": "https://i.ibb.co/JvvB8Y7/aad0f79f6aaf.jpg",
+  "keywords": ["bot", "whatsapp", "whatsapp-bot", "DURGA-MD", "GURU-bot-md", "GURU-bot"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
