@@ -8,7 +8,7 @@
 <a href='https://github.com/AmeenRepo/DURGA-MD/fork' target="_blank"><img alt='FORK' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=red'/></a>
 
 ### DEPLOY ON HEROKU
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AmeenRepo/DURGA-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AmeenRepo/ERIC-TEST)
 
 ### DEPLOY ON RENDER
 <a herf='https://dashboard.render.com/register' target="_blank"><img alt='DEPLOY ON RENDER' src='https://img.shields.io/badge/DEPLOY_ON_RENDER-100000?style=for-the-badge&logo=render&logoColor=white&labelColor=black&color=black'/></a>
