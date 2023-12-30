@@ -3,8 +3,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
    let name = m.pushName || conn.getName(m.sender);
   
   // Define the content
-  let mainImg = "https://raw.githubusercontent.com/AmeenRepo/DURGA-MD/main/AMEEN-SER/DURGA.png"; // Main image URL
-  let smallImg = "https://raw.githubusercontent.com/AmeenRepo/DURGA-MD/main/AMEEN-SER/DURGA.png"; // Small image URL
+  let mainImg = "https://raw.githubusercontent.com/AmeenRepo/DURGA-MD/main/AMEEN-SER/AMEEN.png"; // Main image URL
+  let smallImg = "https://raw.githubusercontent.com/AmeenRepo/DURGA-MD/main/AMEEN-SER/AMEEN.png"; // Small image URL
   let smallText = "I'M Alive Now"; // Small text
   let mainText = "AMEEN-SER"; // Main text
   let audioUrl = "https://raw.githubusercontent.com/AmeenRepo/DURGA-MD/main/src/mp3/AmeenAlive.mp3"; // Audio URL
