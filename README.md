@@ -56,10 +56,12 @@
 <p align="center">  
 <a href='https://dashboard.heroku.com' target="_blank"><img alt='DEPLOY_ON_HEROKU' src='https://img.shields.io/badge/DEPLOY_ON_HEROKU-white?style=for-the-badge&logo=FORK bot-BOT&logoColor=purple'/></a>
 
-### ENTER YOUR REPO NAME ON "<yourreponame>" to activate your link
-    eg:
-        "AmeenRepo/DURGA-MD",
-  ENTER HERE »» https://heroku.com/deploy?template=https://github.com/AmeenRepo/DURGA-MD
+### ENTER YOUR REPO NAME ON "yourreponame" to activate your link
+  
+   eg:
+        AmeenRepo/DURGA-MD
+
+### COPY AND EDIT        
 ```
 https://heroku.com/deploy?template=https://github.com/<yourreponame>/DURGA-MD
 ```
