@@ -43,6 +43,10 @@
 </p>
 
   <br>
+🖤🖤🖤🖤🖤🖤🖤🖤
+  <h3>💛AFTER FORKED SCAN QR AND GET A FILE ON YOUR WHATSAPP NAMED (DURGA.DATA.JSON) UPLOAD THIS FILE ON YOUR REPOSITORY🧡</h3>
+🖤🖤🖤🖤🖤🖤🖤🖤
+<br>
   
   <p align="center">  
   
@@ -64,7 +68,7 @@ https://heroku.com/deploy?template=https://github.com/reponame/DURGA-MD
 </p>
 <p align="center">  
   <a href="https://wa.me/+916238768108?text=HEY+VRO+BIG+FAN+VRO😝">
-    <img alt=AMEEN-SER height="250" src="./AMEEN-SER/HELP.jpg" width="250">
+    <img alt=AMEEN-SER height="300" src="./AMEEN-SER/HELP.jpg" width="250">
    
 </a> 
 
