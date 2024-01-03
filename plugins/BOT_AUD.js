@@ -9,7 +9,7 @@ m.reply( `👻Hello ${taguser} 🤍`)
 conn.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 } 
 
-handler.customPrefix = /^(.list|@919074692450)$/i
+handler.customPrefix = /^(.menu|@916238768108)$/i
 handler.command = new RegExp
 
 export default handler
