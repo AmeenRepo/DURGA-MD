@@ -1,6 +1,6 @@
 import axios from 'axios'
 let handler = async(m, { conn, usedPrefix, command }) => {
-let res = (await axios.get(`https://gist.githubusercontent.com/Mrimperfect7/873ba6f5eb9df9ca60ad97631cdaf4a4/raw/047d9cadddbabac07d4d79826e00cacfacace9b0/fpps.json`)).data  
+let res = (await axios.get(`https://gist.githubusercontent.com/Mrimperfect7/873ba6f5eb9df9ca60ad97631cdaf4a4/raw/cdddb5989b8a0c9ca6efd6c51a40dc130bcf0639/fpps.json`)).data  
 let url = await res[Math.floor(res.length * Math.random())]
 conn.sendFile(m.chat, url, 'error.jpg', `*fpp*`, m)} 
 //conn.sendButton(m.chat, "*fpp*", author, url, [['⚽ NEXT ⚽', `${usedPrefix + command}`]], m)}
