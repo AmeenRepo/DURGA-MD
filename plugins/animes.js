@@ -7,7 +7,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
   if (!text) return m.reply(`*[❗] Please enter the name of an anime to search for.*`);
   try {
     let anime = await client.searchAnime(text);
-    let result = anime.data[0];
+    let result = animes.data[0];
     let resultes = await translate(`${result.background}`, { to: 'en', autoCorrect: true });
     let resultes2 = await translate(`${result.synopsis}`, { to: 'hi', autoCorrect: true });
     let AnimeInfo = `
@@ -34,7 +34,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
   }
 };
 
-handler.help = ['anime']
-handler.tags = ['anime']
-handler.command = /^(anime|animeinfo)$/i;
+handler.help = ['animes']
+handler.tags = ['animes']
+handler.command = /^(animes|animeinfo)$/i;
 export default handler;
