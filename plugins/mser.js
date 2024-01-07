@@ -5,7 +5,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
    let res = await axios.get(images[Math.floor(Math.random() * images.length)]);
   let { url } = res.data;
 
-  conn.sendFile(m.chat, url, null, { asSticker: true });
+  conn.sendMessage(m.chat, url, null, { asSticker: true });
   m.react('🗡️');
 };
 
