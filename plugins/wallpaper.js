@@ -1,11 +1,10 @@
-import { wallpaper, wallpaperv2 } from '@bochilteam/scraper'
-let handler = async (m, { conn, text, usedPrefix, command }) => {
-if (!text) throw `*EXAMPLE ${usedPrefix + command} AMEEN SER WA BOT*`
-const res = await (/2/.test(command) ? wallpaperv2 : wallpaper)(text)
-const img = res[Math.floor(Math.random() * res.length)]
-conn.sendFile(m.chat, img, 'error.jpg', `*𝚁𝙴𝚂𝚄𝙻𝚃 ${text}*`, m)
-}
-handler.help = ['', '2'].map(v => 'wallpaper' + v + ' <query>')
-handler.tags = ['downloader']
-handler.command = /^(wallpaper2?)$/i
+import axios from 'axios'
+let handler = async(m, { conn, usedPrefix, command }) => {
+let res = (await axios.get(`https://raw.githubusercontent.com/Mrimperfect7/api/IMPU/BOT-JSON/wallpaper.js`)).data  
+let url = await res[Math.floor(res.length * Math.random())]
+conn.sendFile(m.chat, url, 'error.jpg', `*Messi*`, m)} 
+//conn.sendButton(m.chat, "*WALLPAPER*", author, url, [['🖼️ NEXT 🖼️', `${usedPrefix + command}`]], m)}
+handler.help = ['wal']
+handler.tags = ['img']
+handler.command = /^(wal)$/i
 export default handler
