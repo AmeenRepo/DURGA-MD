@@ -39,7 +39,7 @@
 
 # FORK
 
-<a href='https://github.com/AmeenRepo/DURGA-MD/fork' target="_blank"><img alt='BOT-SUPPORT-GROUP' src='https://img.shields.io/badge/FORK_MIMMI_MD-blue?style=for-the-badge&logo=FORK bot-BOT&logoColor=white'/></a>
+<a href='https://github.com/AmeenRepo/DURGA-MD/fork' target="_blank"><img alt='BOT-SUPPORT-GROUP' src='https://img.shields.io/badge/FORK_DURGA_MD-blue?style=for-the-badge&logo=FORK bot-BOT&logoColor=white'/></a>
 </p>
 
   <br>
