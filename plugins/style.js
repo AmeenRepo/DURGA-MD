@@ -10,7 +10,7 @@ let handler = async (m, { conn, text }) => {
 
   // If no key and text provided, show all styles of a default text
   if (words.length === 0 || !key || !textToStyle) {
-    let defaultText = 'IMPU SER';
+    let defaultText = 'DURGA MD';
     let styledTexts = await Promise.all([...Array(34).keys()].map(i => stylizeText(defaultText, i + 1)));
     conn.reply(m.chat, styledTexts.join`\n\n`, m);
     return;
@@ -39,5 +39,5 @@ async function stylizeText(text, key) {
   let data = await res.json();
 
   // Use 'result' field for the styled text.
-  return `*Key ${key}*\n${data.result}`;
-}
+  return `${data.result}`;
+      }
