@@ -28,7 +28,7 @@ let lkr = `┌─❖
 │         
 └┬❖ 「 *Owner Menu* 」
    │
-   │${pickRandom([️"${pickRandom([️"乂️", "❖", "㋡", "☞", "✑", "➣"⁩])}", "❖", "㋡", "☞", "✑", "➣"⁩])} ${usedPrefix}*On/Off* public
+   │${pickRandom([️"乂️", "❖", "㋡", "☞", "✑", "➣"⁩])} ${usedPrefix}*On/Off* public
    │${pickRandom([️"乂️", "❖", "㋡", "☞", "✑", "➣"⁩])} ${usedPrefix}*On/Off* autoreact 
    │${pickRandom([️"乂️", "❖", "㋡", "☞", "✑", "➣"⁩])} ${usedPrefix}update 
    │${pickRandom([️"乂️", "❖", "㋡", "☞", "✑", "➣"⁩])} ${usedPrefix}sudo
