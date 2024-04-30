@@ -8,7 +8,7 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=bold&size=55&pause=1000&color=green&center=true&width=910&height=100&lines=I'M+DURGA-MD;MULTI+FUNCTIONAL;WHATSAPP+BOT;CODED+BY+AMEEN SER" alt="Typing SVG" /></a>
   
 <p align="center">  
-  <a href="https://wa.me/+916238768108?text=HEY+VRO+BIG+FAN+VRO😝">
+  <a href="https://heroku.com/deploy?template=https://github.com/AmeenRepo/DURGA-MD">
     <img alt=AMEEN-SER height="250" src="./AMEEN-SER/DURGA.png" width="250">
    
 </a> 
