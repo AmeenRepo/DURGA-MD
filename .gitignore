@@ -1,9 +1,5 @@
 node_modules
 node_modules
 package-lock.json
-keiko.data.json
+durga.data.json
 database.json
-.env
-session
-tmp
-session.json
