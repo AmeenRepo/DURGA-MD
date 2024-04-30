@@ -6,7 +6,7 @@ let handler = async (m, { text, usedPrefix, command }) => {
   if (!text) throw `Give Plugin URL`
 
   // Extract the Gist ID from the URL
-  const gistId = text.match(/(?:\/|gist\.github\.com/)
+  const gistId = text.match(/(?:\/|gist\.github\.com\/)([AmeenRepo]+)/)
 
   if (!gistId) throw `Invalid plugin URL`
 
