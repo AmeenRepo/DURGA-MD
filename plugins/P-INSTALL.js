@@ -6,12 +6,12 @@ let handler = async (m, { text, usedPrefix, command }) => {
   if (!text) throw `Give Plugin URL`
 
   // Extract the Gist ID from the URL
-  const gistId = text.match(/(?:\/|gist\.github\.com\/)([AmeenRepo]+)/)
+ // const gistId = text.match(/(?:\/|gist\.github\.com\/)([AmeenRepo]+)/)
 
-  if (!gistId) throw `Invalid plugin URL`
+//  if (!gistId) throw `Invalid plugin URL`
 
-  const gistName = gistId[1]
-  const gistURL = `https://api.github.com/gists/${gistName}`
+//  const gistName = gistId[1]
+  const gistURL = text
 
   try {
     const response = await axios.get(gistURL)
