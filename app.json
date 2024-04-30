@@ -1,9 +1,9 @@
 {
-  "name": "DURGA-MD",
-  "description": "MD BOT MADE BY AMEEN SER",
-  "repository": "https://github.com/AmeenRepo/DURGA-MD",
+  "name": "𝐊𝐞𝐢𝐤𝐨 𝐕𝟓",
+  "description": "𝐊𝐞𝐢𝐤𝐨 𝐕𝟓 BOT MADE BY AMEEN SER",
+  "repository": "https://github.com/AmeenRepo/KEIKO-V5",
   "logo": "https://i.ibb.co/JvvB8Y7/aad0f79f6aaf.jpg",
-  "keywords": ["bot", "whatsapp", "whatsapp-bot", "DURGA-MD", "GURU-bot-md", "GURU-bot"],
+  "keywords": ["bot", "whatsapp", "whatsapp-bot", "KEIKO-V5", "KEIKO-MD", "KEIKO-WABOT"],
   "buildpacks": [
     {
       "url": "heroku/nodejs"
